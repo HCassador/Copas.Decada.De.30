@@ -1,0 +1,314 @@
+.cabecalho{ 
+    text-align: center;
+    padding: 3rem 0;
+    background-image: url(../img/campoBG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.titulo{
+    width: 75%;
+    margin-bottom: 2rem;
+}
+
+.copasLink ul li{
+    display: inline;
+}
+
+.copasLink ul li a{
+    margin: 0 2rem;
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-size: 2.5rem;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.copasLink ul li a:hover{
+    font-size: 3rem;
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+.creditosLink{
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-size: 3.5rem;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.creditosLink:hover{
+    font-size: 4rem;
+    text-decoration: underline;
+    color: black;
+}
+
+main{
+    background: linear-gradient(#FFFFFF, #ADFF2F);
+    padding: 4.5rem 10% 2.5rem 10%;
+    text-align: center;
+}
+
+.fonte{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .75rem;
+}
+
+.fonte strong{
+    font-weight: bold;
+}
+
+.temaPagina{
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom:1.75rem;
+}
+
+.divTextos{
+    border: 2px solid #000000;
+    border-radius: 15px;
+    margin: 2.5rem 0;
+    padding: 1.5rem;
+    width: 0 auto;
+}
+
+.banner{
+    width: 20%;
+
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+strong{
+    font-weight: bold;
+}
+
+h2{
+    font-size: 1.75rem;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+    margin-bottom: .75rem;
+}
+
+.textos{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+}
+
+.foto1938{
+    width: 50%;
+
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.tabela{
+    width: 40%;
+    box-shadow: 10px 5px 10px #000000;
+}
+
+.placarSemi, .placarFinal{
+    width: 60%;
+}
+
+.selecaoBrasileira{
+    width: 50%;
+
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.divCuriosidades{
+    margin-top: 2.5rem;
+}
+
+.listaCuriosidades{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    margin-top: 2.5rem;
+}
+
+.linha, .linhaSetas{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.irProximaPag{
+    margin-top: 7rem;
+}
+
+.seta{
+    width: 5%;
+    margin: 0 0 0 98%;
+}
+
+.proximaPag, .voltarPag{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 0 98%;
+}
+
+.linhaSetas{
+    margin: 0 0 1rem 98%;
+}
+
+.bandeirinha{
+    width: 17%;
+    margin-top: 1.5rem;
+}
+
+.mapa{
+    width: 30%;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.hitler{
+    width: 25%;
+
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.rodape{
+    background: linear-gradient(#ADFF2F, #32CD32);
+    padding: 2.4rem 0;
+    border-top: 2px #000000 solid;
+    text-align: center;
+}
+
+.bolaRodape{
+    width: 10%;
+    margin-bottom: 2rem;
+}
+
+.copyright{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+@media screen and (max-width: 500px){
+    
+    .cabecalho{
+        padding: 0 0;
+    }
+
+    .titulo{
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+
+    .copasLink ul li a{
+        font-size: 1.75rem;
+    }
+
+    .copasLink ul li a:hover{
+        font-size: 1.75rem;
+    }
+
+    .creditosTexto{
+        margin-top: 1rem;
+    }
+
+    .creditosLink, .linksExtra ul li a{
+        font-family: 'Alumni Sans Inline One', cursive;
+        font-size: 2.5rem;
+        color: black;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+    
+    .creditosLink:hover, .linksExtra ul li a:hover{
+        font-size: 2.5rem;
+    }
+
+    main{
+        padding-bottom: 2rem;
+        padding: 10% 5% 10% 5%;
+    }
+
+    .fonte{
+        font-size: .5rem;
+    }
+
+    .temaPagina{
+        font-size: 2rem;
+    }
+
+    .tabela{
+        width: 98%;
+    }
+
+    .banner{
+        width: 50%;
+    }
+
+    .foto1938{
+        width: 80%;
+    }
+
+    .placarSemi, .placarFinal{
+        width: 100%;
+        height: 4rem;
+    }
+
+    .selecaoBrasileira{
+        width: 90%;
+    }
+
+    .irProximaPag{
+        margin-top: 7rem;
+    }
+    
+    .seta{
+        width: 15%;
+        margin: 0 0 0 80%;
+    }
+    
+    .proximaPag{
+        margin: 0 0 0 80%;
+    }
+
+    h2{
+        font-size: 1.4rem;
+    }
+
+    .linhaSetas{
+        margin: 0 0 1rem 80%;
+    }
+
+    .voltarPag{
+        margin: 0 0 0 80%;
+    }
+
+    .bandeirinha{
+        width: 50%;
+    }
+
+    .mapa{
+        width: 70%;
+    }
+
+    .hitler{
+        width: 70%;
+    }
+
+    .bolaRodape{
+        width: 30%;
+    }
+
+    .copyright{
+        margin: 0 5%;
+        font-size: 1rem;
+    }
+}
